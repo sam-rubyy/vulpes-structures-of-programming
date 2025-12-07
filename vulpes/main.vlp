@@ -1,0 +1,66 @@
+mod("include.vlp")::math;
+
+fx goldenRatio() -> float {
+    return (1 + sqrt(5)) / 2;
+}
+
+fx coolPrint(string : s) {
+    print("======{}=====", s);
+}
+
+fx testArithmetic() {
+    coolPrint("Arithmetic");
+    var::int a = 10;
+    var::int b = 3;
+    print("a + b = {}", a + b);
+    print("a - b = {}", a - b);
+    print("a * b = {}", a * b);
+    print("a / b = {}", a / b);
+    var::float g = goldenRatio();
+    print("golden ratio = {}", g);
+}
+
+fx testComparisons() {
+    coolPrint("Comparisons");
+    var::int lhs = 4;
+    var::int rhs = 4;
+    print("lhs == rhs -> {}", lhs == rhs);
+    print("lhs != rhs -> {}", lhs != rhs);
+    print("lhs < 5    -> {}", lhs < 5);
+    print("lhs <= 4   -> {}", lhs <= 4);
+    print("lhs > 3    -> {}", lhs > 3);
+    print("lhs >= 5   -> {}", lhs >= 5);
+}
+
+fx testLoops() {
+    coolPrint("Loops");
+    var::int total = 0;
+    for i in 0..5 {
+        total = total + i;
+    }
+    print("sum 0..4 = {}", total);
+
+    var::int countdown = 3;
+    while (countdown > 0) {
+        print("count {}", countdown);
+        countdown = countdown - 1;
+    }
+}
+
+fx testNamespacedCalls() {
+    coolPrint("Namespaced Calls");
+    var::int base = 7;
+    var::int inc = math.adder(base, 5);
+    print("math.adder({}, {}) = {}", base, 5, inc);
+
+    var::int scaled = math.scaler(2, 4);
+    print("math.scaler(2, 4) = {}", scaled);
+}
+
+fx main() {
+    coolPrint("Running Vulpes test suite");
+    testArithmetic();
+    testComparisons();
+    testLoops();
+    testNamespacedCalls();
+}

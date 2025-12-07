@@ -1,0 +1,11 @@
+fx adder(int : a, int : b) -> int {
+    return a + b;
+}
+
+fx scaler(int : value, int : times) -> int {
+    var::int result = 0;
+    for i in 0..times {
+        result = result + value;
+    }
+    return result;
+}

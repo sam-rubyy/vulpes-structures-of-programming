@@ -10,7 +10,7 @@ This guide documents the Vulpes language syntax and the functions currently defi
 
 ## Declarations and Types
 - Variables: `var::type name = expression;` or `const::type name = expression;`. The `::type` part is optional; without it the compiler stores integers by default when no initializer is provided.
-- `const` is parsed but not enforced at code‑generation time; treat const variables as write‑once by convention.
+- `const` is parsed but not enforced at code generation time; treat const variables as write‑once by convention.
 - Supported types map to LLVM IR as: `int -> i32`, `float -> double`, `bool -> i1`, `string -> i8*`, `void -> void`. Unrecognised types default to `int`.
 
 ## Functions

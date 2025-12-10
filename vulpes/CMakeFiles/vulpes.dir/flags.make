@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/sage/vulpes/includes
+CXX_INCLUDES = -I/home/sage/vulpes-structures-of-programming/vulpes/includes
 
 CXX_FLAGS = -std=gnu++17
 

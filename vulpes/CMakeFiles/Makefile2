@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sage/vulpes
+CMAKE_SOURCE_DIR = /home/sage/vulpes-structures-of-programming/vulpes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sage/vulpes
+CMAKE_BINARY_DIR = /home/sage/vulpes-structures-of-programming/vulpes
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/vulpes.dir/clean
 CMakeFiles/vulpes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulpes.dir/build.make CMakeFiles/vulpes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulpes.dir/build.make CMakeFiles/vulpes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sage/vulpes/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target vulpes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target vulpes"
 .PHONY : CMakeFiles/vulpes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vulpes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sage/vulpes/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/vulpes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sage/vulpes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles 0
 .PHONY : CMakeFiles/vulpes.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ vulpes: CMakeFiles/vulpes.dir/rule
 # codegen rule for target.
 CMakeFiles/vulpes.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulpes.dir/build.make CMakeFiles/vulpes.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sage/vulpes/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target vulpes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target vulpes"
 .PHONY : CMakeFiles/vulpes.dir/codegen
 
 # clean rule for target.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sage/vulpes
+CMAKE_SOURCE_DIR = /home/sage/vulpes-structures-of-programming/vulpes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sage/vulpes
+CMAKE_BINARY_DIR = /home/sage/vulpes-structures-of-programming/vulpes
 
 # Include any dependencies generated for this target.
 include CMakeFiles/vulpes.dir/depend.make
@@ -75,86 +75,86 @@ CMakeFiles/vulpes.dir/codegen:
 CMakeFiles/vulpes.dir/src/main.cpp.o: CMakeFiles/vulpes.dir/flags.make
 CMakeFiles/vulpes.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/vulpes.dir/src/main.cpp.o: CMakeFiles/vulpes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sage/vulpes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vulpes.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulpes.dir/src/main.cpp.o -MF CMakeFiles/vulpes.dir/src/main.cpp.o.d -o CMakeFiles/vulpes.dir/src/main.cpp.o -c /home/sage/vulpes/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vulpes.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulpes.dir/src/main.cpp.o -MF CMakeFiles/vulpes.dir/src/main.cpp.o.d -o CMakeFiles/vulpes.dir/src/main.cpp.o -c /home/sage/vulpes-structures-of-programming/vulpes/src/main.cpp
 
 CMakeFiles/vulpes.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vulpes.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sage/vulpes/src/main.cpp > CMakeFiles/vulpes.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sage/vulpes-structures-of-programming/vulpes/src/main.cpp > CMakeFiles/vulpes.dir/src/main.cpp.i
 
 CMakeFiles/vulpes.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vulpes.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sage/vulpes/src/main.cpp -o CMakeFiles/vulpes.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sage/vulpes-structures-of-programming/vulpes/src/main.cpp -o CMakeFiles/vulpes.dir/src/main.cpp.s
 
 CMakeFiles/vulpes.dir/src/lexer.cpp.o: CMakeFiles/vulpes.dir/flags.make
 CMakeFiles/vulpes.dir/src/lexer.cpp.o: src/lexer.cpp
 CMakeFiles/vulpes.dir/src/lexer.cpp.o: CMakeFiles/vulpes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sage/vulpes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vulpes.dir/src/lexer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulpes.dir/src/lexer.cpp.o -MF CMakeFiles/vulpes.dir/src/lexer.cpp.o.d -o CMakeFiles/vulpes.dir/src/lexer.cpp.o -c /home/sage/vulpes/src/lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vulpes.dir/src/lexer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulpes.dir/src/lexer.cpp.o -MF CMakeFiles/vulpes.dir/src/lexer.cpp.o.d -o CMakeFiles/vulpes.dir/src/lexer.cpp.o -c /home/sage/vulpes-structures-of-programming/vulpes/src/lexer.cpp
 
 CMakeFiles/vulpes.dir/src/lexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vulpes.dir/src/lexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sage/vulpes/src/lexer.cpp > CMakeFiles/vulpes.dir/src/lexer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sage/vulpes-structures-of-programming/vulpes/src/lexer.cpp > CMakeFiles/vulpes.dir/src/lexer.cpp.i
 
 CMakeFiles/vulpes.dir/src/lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vulpes.dir/src/lexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sage/vulpes/src/lexer.cpp -o CMakeFiles/vulpes.dir/src/lexer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sage/vulpes-structures-of-programming/vulpes/src/lexer.cpp -o CMakeFiles/vulpes.dir/src/lexer.cpp.s
 
 CMakeFiles/vulpes.dir/src/parser.cpp.o: CMakeFiles/vulpes.dir/flags.make
 CMakeFiles/vulpes.dir/src/parser.cpp.o: src/parser.cpp
 CMakeFiles/vulpes.dir/src/parser.cpp.o: CMakeFiles/vulpes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sage/vulpes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vulpes.dir/src/parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulpes.dir/src/parser.cpp.o -MF CMakeFiles/vulpes.dir/src/parser.cpp.o.d -o CMakeFiles/vulpes.dir/src/parser.cpp.o -c /home/sage/vulpes/src/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vulpes.dir/src/parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulpes.dir/src/parser.cpp.o -MF CMakeFiles/vulpes.dir/src/parser.cpp.o.d -o CMakeFiles/vulpes.dir/src/parser.cpp.o -c /home/sage/vulpes-structures-of-programming/vulpes/src/parser.cpp
 
 CMakeFiles/vulpes.dir/src/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vulpes.dir/src/parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sage/vulpes/src/parser.cpp > CMakeFiles/vulpes.dir/src/parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sage/vulpes-structures-of-programming/vulpes/src/parser.cpp > CMakeFiles/vulpes.dir/src/parser.cpp.i
 
 CMakeFiles/vulpes.dir/src/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vulpes.dir/src/parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sage/vulpes/src/parser.cpp -o CMakeFiles/vulpes.dir/src/parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sage/vulpes-structures-of-programming/vulpes/src/parser.cpp -o CMakeFiles/vulpes.dir/src/parser.cpp.s
 
 CMakeFiles/vulpes.dir/src/ast.cpp.o: CMakeFiles/vulpes.dir/flags.make
 CMakeFiles/vulpes.dir/src/ast.cpp.o: src/ast.cpp
 CMakeFiles/vulpes.dir/src/ast.cpp.o: CMakeFiles/vulpes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sage/vulpes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/vulpes.dir/src/ast.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulpes.dir/src/ast.cpp.o -MF CMakeFiles/vulpes.dir/src/ast.cpp.o.d -o CMakeFiles/vulpes.dir/src/ast.cpp.o -c /home/sage/vulpes/src/ast.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/vulpes.dir/src/ast.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulpes.dir/src/ast.cpp.o -MF CMakeFiles/vulpes.dir/src/ast.cpp.o.d -o CMakeFiles/vulpes.dir/src/ast.cpp.o -c /home/sage/vulpes-structures-of-programming/vulpes/src/ast.cpp
 
 CMakeFiles/vulpes.dir/src/ast.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vulpes.dir/src/ast.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sage/vulpes/src/ast.cpp > CMakeFiles/vulpes.dir/src/ast.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sage/vulpes-structures-of-programming/vulpes/src/ast.cpp > CMakeFiles/vulpes.dir/src/ast.cpp.i
 
 CMakeFiles/vulpes.dir/src/ast.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vulpes.dir/src/ast.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sage/vulpes/src/ast.cpp -o CMakeFiles/vulpes.dir/src/ast.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sage/vulpes-structures-of-programming/vulpes/src/ast.cpp -o CMakeFiles/vulpes.dir/src/ast.cpp.s
 
 CMakeFiles/vulpes.dir/src/codegen.cpp.o: CMakeFiles/vulpes.dir/flags.make
 CMakeFiles/vulpes.dir/src/codegen.cpp.o: src/codegen.cpp
 CMakeFiles/vulpes.dir/src/codegen.cpp.o: CMakeFiles/vulpes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sage/vulpes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/vulpes.dir/src/codegen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulpes.dir/src/codegen.cpp.o -MF CMakeFiles/vulpes.dir/src/codegen.cpp.o.d -o CMakeFiles/vulpes.dir/src/codegen.cpp.o -c /home/sage/vulpes/src/codegen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/vulpes.dir/src/codegen.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulpes.dir/src/codegen.cpp.o -MF CMakeFiles/vulpes.dir/src/codegen.cpp.o.d -o CMakeFiles/vulpes.dir/src/codegen.cpp.o -c /home/sage/vulpes-structures-of-programming/vulpes/src/codegen.cpp
 
 CMakeFiles/vulpes.dir/src/codegen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vulpes.dir/src/codegen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sage/vulpes/src/codegen.cpp > CMakeFiles/vulpes.dir/src/codegen.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sage/vulpes-structures-of-programming/vulpes/src/codegen.cpp > CMakeFiles/vulpes.dir/src/codegen.cpp.i
 
 CMakeFiles/vulpes.dir/src/codegen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vulpes.dir/src/codegen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sage/vulpes/src/codegen.cpp -o CMakeFiles/vulpes.dir/src/codegen.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sage/vulpes-structures-of-programming/vulpes/src/codegen.cpp -o CMakeFiles/vulpes.dir/src/codegen.cpp.s
 
 CMakeFiles/vulpes.dir/src/error_handler.cpp.o: CMakeFiles/vulpes.dir/flags.make
 CMakeFiles/vulpes.dir/src/error_handler.cpp.o: src/error_handler.cpp
 CMakeFiles/vulpes.dir/src/error_handler.cpp.o: CMakeFiles/vulpes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sage/vulpes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/vulpes.dir/src/error_handler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulpes.dir/src/error_handler.cpp.o -MF CMakeFiles/vulpes.dir/src/error_handler.cpp.o.d -o CMakeFiles/vulpes.dir/src/error_handler.cpp.o -c /home/sage/vulpes/src/error_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/vulpes.dir/src/error_handler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulpes.dir/src/error_handler.cpp.o -MF CMakeFiles/vulpes.dir/src/error_handler.cpp.o.d -o CMakeFiles/vulpes.dir/src/error_handler.cpp.o -c /home/sage/vulpes-structures-of-programming/vulpes/src/error_handler.cpp
 
 CMakeFiles/vulpes.dir/src/error_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vulpes.dir/src/error_handler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sage/vulpes/src/error_handler.cpp > CMakeFiles/vulpes.dir/src/error_handler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sage/vulpes-structures-of-programming/vulpes/src/error_handler.cpp > CMakeFiles/vulpes.dir/src/error_handler.cpp.i
 
 CMakeFiles/vulpes.dir/src/error_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vulpes.dir/src/error_handler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sage/vulpes/src/error_handler.cpp -o CMakeFiles/vulpes.dir/src/error_handler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sage/vulpes-structures-of-programming/vulpes/src/error_handler.cpp -o CMakeFiles/vulpes.dir/src/error_handler.cpp.s
 
 # Object files for target vulpes
 vulpes_OBJECTS = \
@@ -177,7 +177,7 @@ vulpes: CMakeFiles/vulpes.dir/src/error_handler.cpp.o
 vulpes: CMakeFiles/vulpes.dir/build.make
 vulpes: CMakeFiles/vulpes.dir/compiler_depend.ts
 vulpes: CMakeFiles/vulpes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sage/vulpes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable vulpes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable vulpes"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vulpes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/vulpes.dir/clean:
 .PHONY : CMakeFiles/vulpes.dir/clean
 
 CMakeFiles/vulpes.dir/depend:
-	cd /home/sage/vulpes && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sage/vulpes /home/sage/vulpes /home/sage/vulpes /home/sage/vulpes /home/sage/vulpes/CMakeFiles/vulpes.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/sage/vulpes-structures-of-programming/vulpes && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sage/vulpes-structures-of-programming/vulpes /home/sage/vulpes-structures-of-programming/vulpes /home/sage/vulpes-structures-of-programming/vulpes /home/sage/vulpes-structures-of-programming/vulpes /home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles/vulpes.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/vulpes.dir/depend
 

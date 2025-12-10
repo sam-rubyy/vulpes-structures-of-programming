@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sage/vulpes/src/ast.cpp" "CMakeFiles/vulpes.dir/src/ast.cpp.o" "gcc" "CMakeFiles/vulpes.dir/src/ast.cpp.o.d"
-  "/home/sage/vulpes/src/codegen.cpp" "CMakeFiles/vulpes.dir/src/codegen.cpp.o" "gcc" "CMakeFiles/vulpes.dir/src/codegen.cpp.o.d"
-  "/home/sage/vulpes/src/error_handler.cpp" "CMakeFiles/vulpes.dir/src/error_handler.cpp.o" "gcc" "CMakeFiles/vulpes.dir/src/error_handler.cpp.o.d"
-  "/home/sage/vulpes/src/lexer.cpp" "CMakeFiles/vulpes.dir/src/lexer.cpp.o" "gcc" "CMakeFiles/vulpes.dir/src/lexer.cpp.o.d"
-  "/home/sage/vulpes/src/main.cpp" "CMakeFiles/vulpes.dir/src/main.cpp.o" "gcc" "CMakeFiles/vulpes.dir/src/main.cpp.o.d"
-  "/home/sage/vulpes/src/parser.cpp" "CMakeFiles/vulpes.dir/src/parser.cpp.o" "gcc" "CMakeFiles/vulpes.dir/src/parser.cpp.o.d"
+  "/home/sage/vulpes-structures-of-programming/vulpes/src/ast.cpp" "CMakeFiles/vulpes.dir/src/ast.cpp.o" "gcc" "CMakeFiles/vulpes.dir/src/ast.cpp.o.d"
+  "/home/sage/vulpes-structures-of-programming/vulpes/src/codegen.cpp" "CMakeFiles/vulpes.dir/src/codegen.cpp.o" "gcc" "CMakeFiles/vulpes.dir/src/codegen.cpp.o.d"
+  "/home/sage/vulpes-structures-of-programming/vulpes/src/error_handler.cpp" "CMakeFiles/vulpes.dir/src/error_handler.cpp.o" "gcc" "CMakeFiles/vulpes.dir/src/error_handler.cpp.o.d"
+  "/home/sage/vulpes-structures-of-programming/vulpes/src/lexer.cpp" "CMakeFiles/vulpes.dir/src/lexer.cpp.o" "gcc" "CMakeFiles/vulpes.dir/src/lexer.cpp.o.d"
+  "/home/sage/vulpes-structures-of-programming/vulpes/src/main.cpp" "CMakeFiles/vulpes.dir/src/main.cpp.o" "gcc" "CMakeFiles/vulpes.dir/src/main.cpp.o.d"
+  "/home/sage/vulpes-structures-of-programming/vulpes/src/parser.cpp" "CMakeFiles/vulpes.dir/src/parser.cpp.o" "gcc" "CMakeFiles/vulpes.dir/src/parser.cpp.o.d"
   "" "vulpes" "gcc" "CMakeFiles/vulpes.dir/link.d"
   )
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sage/vulpes
+CMAKE_SOURCE_DIR = /home/sage/vulpes-structures-of-programming/vulpes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sage/vulpes
+CMAKE_BINARY_DIR = /home/sage/vulpes-structures-of-programming/vulpes
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sage/vulpes/CMakeFiles /home/sage/vulpes//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles /home/sage/vulpes-structures-of-programming/vulpes//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sage/vulpes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -361,7 +361,8 @@ bool CodeGenerator::emitStatement(Statement* stmt, const std::string& currentRet
 
         std::string fmtPtr = nextTemp();
         body << "  " << fmtPtr << " = getelementptr inbounds [" << length + 1 << " x i8], [" << length + 1 << " x i8]* " << globalName << ", i32 0, i32 0\n";
-        body << "  " << nextTemp() << " = call i32 (i8*, ...) @printf(i8* " << fmtPtr;
+        std::vector<std::pair<std::string, std::string>> convertedArgs;
+        convertedArgs.reserve(args.size());
         for (auto& arg : args) {
             std::string type = arg.second;
             std::string val = arg.first;
@@ -369,7 +370,12 @@ bool CodeGenerator::emitStatement(Statement* stmt, const std::string& currentRet
                 val = convert(val, "i1", "i32");
                 type = "i32";
             }
-            body << ", " << type << " " << val;
+            convertedArgs.push_back({val, type});
+        }
+
+        body << "  " << nextTemp() << " = call i32 (i8*, ...) @printf(i8* " << fmtPtr;
+        for (auto& arg : convertedArgs) {
+            body << ", " << arg.second << " " << arg.first;
         }
         body << ")\n";
         return false;

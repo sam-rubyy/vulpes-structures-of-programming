@@ -1,3 +1,3 @@
-/home/sage/vulpes/CMakeFiles/vulpes.dir
-/home/sage/vulpes/CMakeFiles/edit_cache.dir
-/home/sage/vulpes/CMakeFiles/rebuild_cache.dir
+/home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles/vulpes.dir
+/home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles/edit_cache.dir
+/home/sage/vulpes-structures-of-programming/vulpes/CMakeFiles/rebuild_cache.dir
